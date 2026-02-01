@@ -1,0 +1,5 @@
+{
+  "name": "Kombucha Pre-Order Form",
+  "description": "A pre-order form for a homemade Kombucha business, allowing users to select products, specify quantities, and provide their details for local delivery. The app features a floating order summary for a seamless user experience.",
+  "requestFramePermissions": []
+}
