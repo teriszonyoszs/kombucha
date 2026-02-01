@@ -1,10 +1,10 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { Product, CartItem, UserDetails } from './types';
-import { PRODUCTS } from './constants';
-import ProductCard from './components/ProductCard';
-import OrderForm from './components/OrderForm';
-import OrderSummary from './components/OrderSummary';
+import { Product, CartItem, UserDetails } from './types.ts';
+import { PRODUCTS } from './constants.ts';
+import ProductCard from './components/ProductCard.tsx';
+import OrderForm from './components/OrderForm.tsx';
+import OrderSummary from './components/OrderSummary.tsx';
 
 type PickupLocation = 'The Office Business Center' | 'Sigma Shopping Center';
 
